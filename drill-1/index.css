@@ -1,0 +1,40 @@
+.top {
+    height: 2in;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: grey;
+    z-index: 3;
+}
+
+.side {
+    width: 2in;
+    height: 100%;
+    background-color: #d3d3d3;
+    z-index: 2;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 1in;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+#left {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#right {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
