@@ -1,0 +1,73 @@
+.solid {
+    position: relative;
+    height: 4.5in;
+    width: 95%;
+    margin: 30px 30px 30px 30px; 
+    border: solid black 5px;
+}
+
+.dashed {
+    position: relative;
+    height: 4.5in;
+    width: 95%;
+    margin: 30px 30px 30px 30px;
+    border: dashed black 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greyline {
+    position: relative;
+    height: 4.5in;
+    width: 50%;
+    margin: 1in auto 1in auto;
+    border: solid grey 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 7px grey; 
+}
+
+.rect {
+    position: absolute;
+    height: 2.5in;
+    width: 1in;
+    background-color: rgb(197, 23, 197);
+    object-position: bottom;
+    left: 40px;
+    bottom: 15px;
+}
+
+.rect2 {
+    position: absolute;
+    height: 4in;
+    width: 7in;
+    background-color: green;
+    object-position: bottom;
+    left: 2in;
+    bottom: 15px;
+}
+
+.cir {
+    position: absolute;
+    bottom: 15px;
+    right: 1.5in;
+    height: 4in;
+    width: 4in;
+    background: aqua;
+    border-radius: 50%;
+}
+
+.rect3 {
+    width: 90%;
+    height: 80%;
+    background-color: tan;
+    box-shadow: 16px 16px 10px grey; 
+}
+
+h1 {
+    color: rgb(2, 2, 125);
+    font-size: 1in;
+    text-align: center;
+}
