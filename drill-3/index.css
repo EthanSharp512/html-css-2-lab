@@ -1,9 +1,13 @@
-.topbar {
-    width: 100%;
-    height: 150px;
-    margin: 0;
-    background-color: rgb(159, 159, 159);
+body{
+    margin:0;
 }
+
+.topbar {
+    position:relative;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+}  
 
 .sqr {
     position: relative;
@@ -11,5 +15,46 @@
     height: 90px;
     left: 30px;
     top: 30px;
-    background-color: rgb(23, 23, 162);
+}
+
+.text {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 90%;
+    font-size: larger;
+    text-align: left;
+    position: relative;
+}
+
+.rect {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+#blue {
+    background-color: rgb(110, 110, 255);
+}
+#teal {
+    background-color: rgb(32, 244, 255);
+}
+#green {
+    background-color: rgb(42, 255, 138);
+}
+#yellow {
+    background-color: rgb(227, 255, 90);
+}
+
+.faq {
+    display: block;
+    align-self: flex-end;
+    left: 92%;
+    bottom: 1rem;
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%
 }
